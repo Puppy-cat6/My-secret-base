@@ -1,0 +1,33 @@
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #fffdf9;
+  color: #333;
+  padding: 2rem;
+}
+.welcome {
+  font-size: 1.2rem;
+  color: #a1887f;
+  margin-bottom: 1rem;
+}
+.tabs button {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  background: #f8bbd0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.page {
+  display: none;
+}
+.page.active {
+  display: block;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 0.5rem;
+}

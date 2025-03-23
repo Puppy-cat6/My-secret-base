@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>我的记录空间</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="welcome">欢迎回来，我的小主人</div>
+  <div class="tabs">
+    <button onclick="switchPage('todo')">清单</button>
+    <button onclick="switchPage('ideas')">灵感</button>
+  </div>
+  <div id="todo" class="page active">
+    <h2>今日待办</h2>
+    <ul id="todo-list"></ul>
+    <input id="todo-input" placeholder="写下你要做的事">
+    <button onclick="addTodo()">添加</button>
+  </div>
+  <div id="ideas" class="page">
+    <h2>灵感记录</h2>
+    <textarea id="idea-input" placeholder="写下你的小想法吧"></textarea>
+    <button onclick="saveIdea()">保存灵感</button>
+    <div id="idea-list"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
